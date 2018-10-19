@@ -8,7 +8,7 @@ let win;
 
 function createWindow() {
 	// Create a new window and load in the index.html file in this directory. Include a custom icon on the window
-	win = new BrowserWindow({width: 800, height: 600, icon: __dirname+'/img/ttu.ico'});
+	win = new BrowserWindow({width: 800, height: 600, icon: __dirname+'/img/acm.ico'});
 	win.loadURL(url.format({
 		pathname: path.join(__dirname, 'index.html'),
 		protocol: 'file:',
